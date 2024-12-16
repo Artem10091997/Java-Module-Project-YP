@@ -1,5 +1,5 @@
 public class Race {
-    private String currentLeader = "";
+    private String currentLeader = " ";
     private int maxDistance = 0;
     public void newLeader(Car car) {
         int distance = car.speed * 24;
